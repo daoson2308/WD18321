@@ -42,3 +42,5 @@ Route::group(['prefix'=>'product','as'=>'product.'],function(){
     Route::get('returnCheck',[ProductController::class,'returnProduct'])->name('returnCheck');
 
 });
+
+Route::get('test',[UserController::class,'test']);

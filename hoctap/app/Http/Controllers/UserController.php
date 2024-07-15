@@ -74,6 +74,9 @@ public function deleteUsers($idUsers){
     return redirect()->route('users.listUsers');
 }
 
+public function test(){
+    return view('admin/products/list-product');
+}
 
 
 }
